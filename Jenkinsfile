@@ -15,7 +15,7 @@ pipeline {
                         if (isUnix()) {
                             sh 'mvn clean test'
                         } else {
-                            bat 'mvn clean test'
+                            bat '"C:\\Users\\kanch\\Downloads\\apache-maven-3.9.16-bin\\apache-maven-3.9.16\\bin\\mvn.cmd" clean test'
                         }
                     }
                 }
